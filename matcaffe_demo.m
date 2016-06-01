@@ -2,7 +2,8 @@
 %  All rights reserved.
 % add path of Matlab such as '/usr/local/matlab'
 % add path of Caffe Matlab such as '.../caffe/matlab/'
-img = imread('ak.png');
+imgname = ''; % add image file name
+img = imread(imgname);
 img = single(img);
 
 averageImg = [129.1863,104.7624,93.5940] ;
@@ -14,8 +15,8 @@ img = cat(3,img(:,:,1)-averageImg(1),...
 img = img(:, :, [3, 2, 1]); % convert from RGB to BGR
 img = permute(img, [2, 1, 3]); % permute width and height
 
-model = 'VGG_FACE_deploy.prototxt';
-weights = 'VGG_FACE.caffemodel';
+model = 'VGG_FACE_deploy.prototxt'; % download from VGG website
+weights = 'VGG_FACE.caffemodel'; % download from VGG website
 caffe.set_mode_cpu();
 net = caffe.Net(model, weights, 'test'); % create net and load weights
 
