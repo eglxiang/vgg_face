@@ -1,7 +1,7 @@
 %  Copyright (c) 2015, Omkar M. Parkhi
 %  All rights reserved.
-addpath('/usr/local/matlab')
-addpath('/root/ws/dl/caffe/matlab/')
+% add path of Matlab such as '/usr/local/matlab'
+% add path of Caffe Matlab such as '.../caffe/matlab/'
 img = imread('ak.png');
 img = single(img);
 
