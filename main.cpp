@@ -26,6 +26,7 @@ int main(int argc, char** argv)
         cerr<<"Run a simple test sample using pretrained VGG face model. " << endl
             << "Usage: " << argv[0]
             << "deploy.prototxt network.caffemodel image" << endl;
+            // downloaded from http://www.robots.ox.ac.uk/~vgg/software/vgg_face/src/vgg_face_caffe.tar.gz
         return -1;
     }
     string model_file = argv[1];
