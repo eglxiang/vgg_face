@@ -17,7 +17,7 @@ Depending on the operating system, you may set link libraries and include headfi
 
 /usr/local/lib/libcaffe.so
 
-libopencv_imgcodecs.so.3.1
+/usr/local/lib/libopencv_imgcodecs.so
 
 Linker:
 
