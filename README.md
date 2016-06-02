@@ -6,16 +6,25 @@ Face recognition seems rising again. Google, Facebook and SenseTime have almost 
 Depending on the operating system, you may set link libraries and include headfiles in the following way.
 
 /usr/lib64/libboost_system.so
+
 /usr/local/lib/libopencv_highgui.so
+
 /usr/local/lib/libopencv_core.so
+
 /usr/local/lib/libopencv_imgproc.so
+
 /usr/lib64/libglog.so
+
 /usr/local/lib/libcaffe.so
+
 libopencv_imgcodecs.so.3.1
 
 Linker:
+
 /usr/local/lib
+
 /usr/lib
 
 Compiler:
+
 /usr/local/include
