@@ -2,6 +2,7 @@
 Xiang Xiang (eglxiang@gmail.com), May 2016, MIT license.
 Main functionality: compute VGG_Face features for each image.
 First you need to create the saving directory yourself.
+It writes the feature vector of each face image into a txt file.
 */
 
 #define CPU_ONLY
