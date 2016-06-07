@@ -7,6 +7,7 @@ The program uses CPU in default. If you want to try GPU mode, please simply comm
 
 
 ========== Settings ============
+
 Depending on the operating system, you may set link libraries and include headfiles in the following way.
 
 /usr/lib64/libboost_system.so
