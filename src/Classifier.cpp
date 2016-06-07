@@ -1,4 +1,4 @@
-#define CPU_ONLY
+#define CPU_ONLY // comment this line if you want to use GPU
 #include "Classifier.h"
 #include <caffe/caffe.hpp>
 #include <opencv2/core/core.hpp>
