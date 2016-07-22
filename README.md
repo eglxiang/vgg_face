@@ -5,6 +5,9 @@ Face recognition seems rising again. Google, Facebook and SenseTime have almost 
 
 The program uses CPU in default. If you want to try GPU mode, please simply comment the first line in src/Classifier.cpp
 
+VGG pre-trained model and the Caffe protocol file can be downloaded from http://www.robots.ox.ac.uk/~vgg/software/vgg_face/src/vgg_face_caffe.tar.gz
+
+Features are outputs of FC8 so they are 4096-dim.
 
 ========== Settings ============
 
