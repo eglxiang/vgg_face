@@ -43,14 +43,14 @@ int main(int argc, char** argv)
     }
     namedWindow("Display window", WINDOW_AUTOSIZE);
     imshow("Display window", img);
-    int height = img.rows;
-    int width = img.cols;
+    //int height = img.rows;
+    //int width = img.cols;
 
     // subtract the average face
-    Mat avg(height,width,CV_8UC3,Scalar(93.5940,104.7624,129.1863));
-    Mat image = img - avg;
+    //Mat avg(height,width,CV_8UC3,Scalar(93.5940,104.7624,129.1863));
+    //Mat image = img - avg;
     namedWindow("Display subtracted face", WINDOW_AUTOSIZE);
-    imshow("Display subtracted face", image);
+    imshow("Display subtracted face", img);
 
     // foward in the network
     vector<float> output = classifier.Predict(image);
