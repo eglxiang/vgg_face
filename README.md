@@ -40,3 +40,13 @@ Compiler:
 http://stackoverflow.com/questions/33828582/vgg-face-descriptor-in-python-with-caffe
 
 Most people argued if subtracting the mean face is a necessity. From my experiments, I would say no. You do not need to subtract a fake mean to the input images.
+
+I am more than happy to know if this program is of use to your work.
+Please cite the following paper.
+
+@inproceedings{xiang16pose,
+  author = {Xian},
+  Title = {Xiang, Xiang and Tran, Trac D},
+  booktitle = {VAAM/FFER@ICPR 2016},
+  Year  = {2016}
+}
