@@ -45,8 +45,13 @@ I am more than happy to know if this program is of use to your work.
 Please cite the following paper.
 
 @inproceedings{xiang16pose,
-  author = {Xian},
+  
+  author = {Xiang},
+  
   Title = {Xiang, Xiang and Tran, Trac D},
+  
   booktitle = {VAAM/FFER@ICPR 2016},
+  
   Year  = {2016}
+
 }
