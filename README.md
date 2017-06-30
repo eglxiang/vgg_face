@@ -44,14 +44,9 @@ Most people argued if subtracting the mean face is a necessity. From my experime
 I am more than happy to know if this program is of use to your work.
 Please cite the following paper.
 
-@inproceedings{xiang16pose,
-  
-  author = {Xiang},
-  
-  Title = {Xiang, Xiang and Tran, Trac D},
-  
-  booktitle = {VAAM/FFER@ICPR 2016},
-  
-  Year  = {2016}
-
+@inproceedings{xiang16pose,<br>  
+  author = {Xiang},<br>
+  Title = {Xiang, Xiang and Tran, Trac D},<br>
+  booktitle = {VAAM/FFER@ICPR 2016},<br>
+  Year  = {2016}<br>
 }
